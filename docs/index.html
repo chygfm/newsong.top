@@ -26,7 +26,7 @@
         <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
       {% endfor %}
     </ul></nav>
-{% include player.html %}
+
 
     {% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
@@ -61,7 +61,7 @@
   </div>
 
 <!--{% include analytics.html %}-->
-		
+		{% include player.html %}
 </body>
 
 <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
