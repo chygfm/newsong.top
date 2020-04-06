@@ -1,0 +1,42 @@
+---
+
+port: 4000
+host: 0.0.0.0
+safe: false
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: /:title ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+
+
+### content configuration ###
+home: "戈拿旺官方主页"
+title: "戈拿旺巴西烤肉--域名出售"
+keywords: "genawang,戈拿旺,genawang.com,戈拿旺怎么样,戈拿旺加盟费多少,域名,出售,在售,巴西,烤肉,carnaval"
+description: "戈拿旺巴西烤肉官网官方主页-域名出售"
+source_link: "https://genawang.com"
+favicon: "img/favicon.ico"
+touch_icon:  "img/apple-touch-icon.png"
+email: "chygmm@qq.com"
+qq: "1523338780"
+phone: "18520956787"
+google_analytics_key: UA-162859114-1 ## put YOUR key here to enable tracking! (blank to disable)
+
+
+### template colors, used site-wide via css ###
+colors:
+  black:     '#111111'
+  white:     '#f8f8f8'
+  blue:      '#49a7e9'
+  green:     '#9bcf2f'
+  purple:    '#c869bf'
+  orange:    '#fab125'
+  turquoise: '#0fbfcf'
+
+kramdown:
+  auto_ids:  false
+
