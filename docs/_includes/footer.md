@@ -1,10 +1,10 @@
 
 
-欢迎光临{{ site.home }}
+Welcome{{ site.home }}
 &mdash;
-联系方式Email:{{ site.email }}
+Email:{{ site.email }}
 &mdash;
 QQ:{{ site.qq }}
 &mdash;
-网址: {{ site.source_link }}
+Site: {{ site.source_link }}
 
