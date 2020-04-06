@@ -1,6 +1,6 @@
 
 
-Welcome{{ site.home }}
+Welcome to {{ site.home }}
 &mdash;
 Email:{{ site.email }}
 &mdash;
