@@ -18,9 +18,9 @@
  
 </head>
 <body>
-	{% include player.html %}
+	
   <div id="main">
-
+{% include player.html %}
     <nav><ul>
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
